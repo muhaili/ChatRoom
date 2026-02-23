@@ -1,0 +1,14 @@
+# 忽略编译生成的二进制文件
+target/
+build/
+bin/
+
+# 忽略 CMake 产生的中间文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 忽略日志和临时文件
+*.log
+.vscode/
